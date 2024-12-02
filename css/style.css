@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body,
+.container,
+button,
+input{
+    background-color: #24353f;
+    
+}
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+.container{
+    box-shadow:0px 0px 10px 5px #000 ;
+    text-align: center;
+}
+.navbar{
+    background-color: #24353f;
+    color: white;
+}
+
+h1 {
+
+color: #17a2b8;
+font-size:40px ;
+width: 75%;
+margin: auto !important;
+}
+span,a{
+    color: white;
+}
+
+input{
+    border: 1px solid white !important;
+    border-radius:5px;
+    color: white;
+}
+div #invalid{
+    color: red;
+    margin-top: 10px;
+}
+
+button{
+    border:1px solid #17a2b8;
+    color: #17a2b8;
+    border-radius:5px;
+}
